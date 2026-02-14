@@ -1,0 +1,34 @@
+
+================================================================================
+  REGIME-SWITCHING AVELLANEDA-STOIKOV BACKTEST ENGINE
+  Full Parameter Sweep for Canonic WETH/USDm
+================================================================================
+
+================================================================================
+  REGIME-SWITCHING A-S BACKTEST ENGINE - FULL PARAMETER SWEEP
+================================================================================
+  Pair: WETH/USDm
+  Base price: $2052.36
+  Spread: 3.2 bps | Maker fee: 0.0 bps
+  Ticks per run: 14400 (4.0 hours)
+  Monte Carlo seeds: 10
+================================================================================
+  Parameter combinations per vol regime:
+    Gammas: 10
+    Ks: 7
+    Spread modes: 3
+    Q_maxs: 5
+    Rebalance thresholds: 5
+    Micro-pulse: 2
+    Vol regimes: 4
+    = 10500 combos/regime × 4 regimes = 42000
+  Total simulations: 420,000
+================================================================================
+
+================================================================================
+  VOL REGIME: LOW (σ_daily = 2.0%)
+================================================================================
+  Generating 10 price paths...
+  Running 10500 combinations × 10 seeds = 105000 sims...
+    Progress: 200/10500 (1.9%) | Best Sharpe: 889.4588 | Rate: 0.1 combos/sec | ETA: 1219.1 min
+    Progress: 400/10500 (3.8%) | Best Sharpe: 889.4588 | Rate: 0.1 combos/sec | ETA: 1442.0 min

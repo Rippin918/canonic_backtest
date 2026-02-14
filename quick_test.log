@@ -1,0 +1,182 @@
+
+================================================================================
+  QUICK REGIME-SWITCHING TEST
+  Reduced grid for fast validation
+================================================================================
+
+  Combos per regime: 360
+  Total simulations: 7,200
+  Ticks per run: 7200 (2.0 hours)
+================================================================================
+
+
+================================================================================
+  VOL REGIME: LOW (σ_daily = 2.0%)
+================================================================================
+  Generating 5 price paths...
+  Running 360 combinations × 5 seeds...
+    30/360 (8%) | Best Sharpe: 610.4143 | 0.5 combos/sec | ETA: 722s
+    60/360 (17%) | Best Sharpe: 610.4143 | 0.4 combos/sec | ETA: 675s
+    90/360 (25%) | Best Sharpe: 610.4143 | 0.4 combos/sec | ETA: 610s
+    120/360 (33%) | Best Sharpe: 610.4143 | 0.4 combos/sec | ETA: 535s
+    150/360 (42%) | Best Sharpe: 610.4143 | 0.5 combos/sec | ETA: 462s
+    180/360 (50%) | Best Sharpe: 610.4143 | 0.4 combos/sec | ETA: 401s
+    210/360 (58%) | Best Sharpe: 610.4143 | 0.4 combos/sec | ETA: 339s
+    240/360 (67%) | Best Sharpe: 610.4143 | 0.4 combos/sec | ETA: 270s
+    270/360 (75%) | Best Sharpe: 610.4143 | 0.4 combos/sec | ETA: 202s
+    300/360 (83%) | Best Sharpe: 610.4143 | 0.4 combos/sec | ETA: 136s
+    330/360 (92%) | Best Sharpe: 610.4143 | 0.4 combos/sec | ETA: 68s
+    360/360 (100%) | Best Sharpe: 610.4143 | 0.4 combos/sec | ETA: 0s
+
+  BEST CONFIG: γ=0.05, k=1.5, mode=as_optimal, Sharpe=610.4143
+
+================================================================================
+  VOL REGIME: NORMAL (σ_daily = 5.5%)
+================================================================================
+  Generating 5 price paths...
+  Running 360 combinations × 5 seeds...
+    30/360 (8%) | Best Sharpe: 284.4990 | 0.6 combos/sec | ETA: 588s
+    60/360 (17%) | Best Sharpe: 284.4990 | 0.6 combos/sec | ETA: 543s
+    90/360 (25%) | Best Sharpe: 293.5376 | 0.5 combos/sec | ETA: 503s
+    120/360 (33%) | Best Sharpe: 293.5376 | 0.5 combos/sec | ETA: 442s
+    150/360 (42%) | Best Sharpe: 293.5376 | 0.5 combos/sec | ETA: 396s
+    180/360 (50%) | Best Sharpe: 293.5376 | 0.5 combos/sec | ETA: 353s
+    210/360 (58%) | Best Sharpe: 293.5376 | 0.5 combos/sec | ETA: 303s
+    240/360 (67%) | Best Sharpe: 293.5376 | 0.5 combos/sec | ETA: 246s
+    270/360 (75%) | Best Sharpe: 293.5376 | 0.5 combos/sec | ETA: 188s
+    300/360 (83%) | Best Sharpe: 293.5376 | 0.5 combos/sec | ETA: 128s
+    330/360 (92%) | Best Sharpe: 293.5376 | 0.5 combos/sec | ETA: 65s
+    360/360 (100%) | Best Sharpe: 293.5376 | 0.5 combos/sec | ETA: 0s
+
+  BEST CONFIG: γ=0.10, k=1.5, mode=as_optimal, Sharpe=293.5376
+
+================================================================================
+  VOL REGIME: HIGH (σ_daily = 12.0%)
+================================================================================
+  Generating 5 price paths...
+  Running 360 combinations × 5 seeds...
+    30/360 (8%) | Best Sharpe: 138.5911 | 0.4 combos/sec | ETA: 861s
+    60/360 (17%) | Best Sharpe: 138.5911 | 0.4 combos/sec | ETA: 824s
+    90/360 (25%) | Best Sharpe: 182.6623 | 0.4 combos/sec | ETA: 756s
+    120/360 (33%) | Best Sharpe: 182.6623 | 0.4 combos/sec | ETA: 680s
+    150/360 (42%) | Best Sharpe: 182.6623 | 0.4 combos/sec | ETA: 584s
+    180/360 (50%) | Best Sharpe: 182.6623 | 0.4 combos/sec | ETA: 501s
+    210/360 (58%) | Best Sharpe: 182.6623 | 0.4 combos/sec | ETA: 419s
+    240/360 (67%) | Best Sharpe: 182.6623 | 0.4 combos/sec | ETA: 339s
+    270/360 (75%) | Best Sharpe: 182.6623 | 0.4 combos/sec | ETA: 247s
+    300/360 (83%) | Best Sharpe: 182.6623 | 0.4 combos/sec | ETA: 165s
+    330/360 (92%) | Best Sharpe: 182.6623 | 0.4 combos/sec | ETA: 83s
+    360/360 (100%) | Best Sharpe: 182.6623 | 0.4 combos/sec | ETA: 0s
+
+  BEST CONFIG: γ=0.10, k=1.5, mode=as_optimal, Sharpe=182.6623
+
+================================================================================
+  VOL REGIME: BREAKOUT (σ_daily = 25.0%)
+================================================================================
+  Generating 5 price paths...
+  Running 360 combinations × 5 seeds...
+    30/360 (8%) | Best Sharpe: 70.3669 | 0.5 combos/sec | ETA: 687s
+    60/360 (17%) | Best Sharpe: 70.3669 | 0.4 combos/sec | ETA: 724s
+    90/360 (25%) | Best Sharpe: 129.9349 | 0.4 combos/sec | ETA: 703s
+    120/360 (33%) | Best Sharpe: 129.9349 | 0.4 combos/sec | ETA: 636s
+    150/360 (42%) | Best Sharpe: 129.9349 | 0.4 combos/sec | ETA: 531s
+    180/360 (50%) | Best Sharpe: 129.9349 | 0.4 combos/sec | ETA: 442s
+    210/360 (58%) | Best Sharpe: 129.9349 | 0.4 combos/sec | ETA: 362s
+    240/360 (67%) | Best Sharpe: 129.9349 | 0.4 combos/sec | ETA: 286s
+    270/360 (75%) | Best Sharpe: 129.9349 | 0.4 combos/sec | ETA: 210s
+    300/360 (83%) | Best Sharpe: 129.9349 | 0.4 combos/sec | ETA: 139s
+    330/360 (92%) | Best Sharpe: 129.9349 | 0.4 combos/sec | ETA: 72s
+    360/360 (100%) | Best Sharpe: 129.9349 | 0.4 combos/sec | ETA: 0s
+
+  BEST CONFIG: γ=0.10, k=1.5, mode=as_optimal, Sharpe=129.9349
+
+================================================================================
+  Saving results...
+
+================================================================================
+  TOP 10 CONFIGS PER VOL REGIME
+================================================================================
+
+  LOW REGIME (σ = 2.0%):
+    #     γ     k             Mode  qM   Reb  μP       AvgPnL   Sharpe   Trd        $/Trd
+  ------------------------------------------------------------------------------------------
+    1  0.05   1.5       as_optimal   5  0.85   N   340.869349 610.4143   558   0.61087697
+    2  0.05   1.5       as_optimal   5  0.85   Y   340.869349 610.4143   558   0.61087697
+    3  0.05   1.5       as_optimal   5  1.00   N   340.869349 610.4143   558   0.61087697
+    4  0.05   1.5       as_optimal   5  1.00   Y   340.869349 610.4143   558   0.61087697
+    5  0.10   1.5       as_optimal   5  0.85   N   324.645604 529.5422   517   0.62794121
+    6  0.10   1.5       as_optimal   5  0.85   Y   324.645604 529.5422   517   0.62794121
+    7  0.10   1.5       as_optimal   5  1.00   N   324.645604 529.5422   517   0.62794121
+    8  0.10   1.5       as_optimal   5  1.00   Y   324.645604 529.5422   517   0.62794121
+    9  0.30   1.5       as_optimal   5  0.85   N   288.320361 496.6309   528   0.54606129
+   10  0.30   1.5       as_optimal   5  0.85   Y   288.320361 496.6309   528   0.54606129
+
+  NORMAL REGIME (σ = 5.5%):
+    #     γ     k             Mode  qM   Reb  μP       AvgPnL   Sharpe   Trd        $/Trd
+  ------------------------------------------------------------------------------------------
+    1  0.10   1.5       as_optimal   5  0.85   N   388.553226 293.5376   517   0.75155363
+    2  0.10   1.5       as_optimal   5  0.85   Y   388.553226 293.5376   517   0.75155363
+    3  0.10   1.5       as_optimal   5  1.00   N   388.553226 293.5376   517   0.75155363
+    4  0.10   1.5       as_optimal   5  1.00   Y   388.553226 293.5376   517   0.75155363
+    5  0.05   1.5       as_optimal   5  0.85   N   344.477281 284.4990   558   0.61734280
+    6  0.05   1.5       as_optimal   5  0.85   Y   344.477281 284.4990   558   0.61734280
+    7  0.05   1.5       as_optimal   5  1.00   N   344.477281 284.4990   558   0.61734280
+    8  0.05   1.5       as_optimal   5  1.00   Y   344.477281 284.4990   558   0.61734280
+    9  0.10   1.5       as_optimal  10  0.85   N   634.632319 240.7960   504   1.25919111
+   10  0.10   1.5       as_optimal  10  0.85   Y   634.632319 240.7960   504   1.25919111
+
+  HIGH REGIME (σ = 12.0%):
+    #     γ     k             Mode  qM   Reb  μP       AvgPnL   Sharpe   Trd        $/Trd
+  ------------------------------------------------------------------------------------------
+    1  0.10   1.5       as_optimal   5  0.85   N   507.082050 182.6623   517   0.98081634
+    2  0.10   1.5       as_optimal   5  0.85   Y   507.082050 182.6623   517   0.98081634
+    3  0.10   1.5       as_optimal   5  1.00   N   507.082050 182.6623   517   0.98081634
+    4  0.10   1.5       as_optimal   5  1.00   Y   507.082050 182.6623   517   0.98081634
+    5  0.10   1.5 regime_switching   5  0.85   Y   392.249393 141.0214   517   0.75840950
+    6  0.10   1.5 regime_switching   5  1.00   Y   392.249393 141.0214   517   0.75840950
+    7  0.10   1.5       as_optimal  10  0.85   N   783.403705 140.2638   504   1.55437243
+    8  0.10   1.5       as_optimal  10  0.85   Y   783.403705 140.2638   504   1.55437243
+    9  0.10   1.5       as_optimal  10  1.00   N   811.401419 140.2582   502   1.61633749
+   10  0.10   1.5       as_optimal  10  1.00   Y   811.401419 140.2582   502   1.61633749
+
+  BREAKOUT REGIME (σ = 25.0%):
+    #     γ     k             Mode  qM   Reb  μP       AvgPnL   Sharpe   Trd        $/Trd
+  ------------------------------------------------------------------------------------------
+    1  0.10   1.5       as_optimal   5  0.85   N   743.469314 129.9349   517   1.43804510
+    2  0.10   1.5       as_optimal   5  0.85   Y   743.469314 129.9349   517   1.43804510
+    3  0.10   1.5       as_optimal   5  1.00   N   743.469314 129.9349   517   1.43804510
+    4  0.10   1.5       as_optimal   5  1.00   Y   743.469314 129.9349   517   1.43804510
+    5  0.10   1.5 regime_switching   5  0.85   Y   622.700683 108.3454   517   1.20398431
+    6  0.10   1.5 regime_switching   5  1.00   Y   622.700683 108.3454   517   1.20398431
+    7  0.10   1.5 regime_switching   5  0.85   N   613.995448 107.5587   517   1.18761209
+    8  0.10   1.5 regime_switching   5  1.00   N   613.995448 107.5587   517   1.18761209
+    9  0.10   1.5     fib_adaptive   5  0.85   Y   538.460608  93.9583   519   1.03829658
+   10  0.10   1.5     fib_adaptive   5  1.00   Y   538.460608  93.9583   519   1.03829658
+
+================================================================================
+  FINDING ROBUST REGIME-SWITCHING CONFIG
+  (Best Sharpe across all vol regimes)
+================================================================================
+
+  ROBUST CONFIG:
+    Gamma: 0.10
+    K: 1.5
+    Spread mode: regime_switching
+    Q_max: 10
+    Rebalance threshold: 1.00
+    Micro-pulse: Yes
+
+  PERFORMANCE ACROSS VOL REGIMES:
+    low         : Sharpe = 340.3731  (Rank #2)
+    normal      : Sharpe = 176.9902  (Rank #2)
+    high        : Sharpe = 124.2871  (Rank #5)
+    breakout    : Sharpe = 86.3279  (Rank #5)
+
+    Avg Sharpe across regimes: 181.9946
+    Min Sharpe: 86.3279
+
+================================================================================
+  ✓ QUICK TEST COMPLETE
+  Results saved to: quick_test_results.json
+================================================================================
+
