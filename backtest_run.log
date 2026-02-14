@@ -32,3 +32,4 @@
   Running 10500 combinations × 10 seeds = 105000 sims...
     Progress: 200/10500 (1.9%) | Best Sharpe: 889.4588 | Rate: 0.1 combos/sec | ETA: 1219.1 min
     Progress: 400/10500 (3.8%) | Best Sharpe: 889.4588 | Rate: 0.1 combos/sec | ETA: 1442.0 min
+    Progress: 600/10500 (5.7%) | Best Sharpe: 889.4588 | Rate: 0.1 combos/sec | ETA: 1359.3 min
